@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * print_square - function point a square
+ * print_square - function print a square
  * @size: size of square
- * Description: can only use_putchar to print. use '1' to print square.
+ * Description: can only use_putchar to print. use '|' to print square.
  */
 
 void print_square(int size)
@@ -20,10 +20,10 @@ void print_square(int size)
 		x = 0;
 		while (x < size)
 		{
-			_putchar('#'');
-			x++
+			_putchar('#);
+			x++;
 		}
 		_putchar('\n');
-		y++;
+		y++
 	}
 }
